@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anotações de Campo</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
     <!-- PWA Manifest and Theme -->
@@ -18,10 +24,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>Anotações de Campo</h1>
+        <header>
+            <h1>Anotações de Campo</h1>
+        </header>
 
-        <div class="form-container">
-            <h2>Nova Anotação</h2>
+        <main class="main-content">
+            <div class="form-container">
+                <h2>Nova Anotação</h2>
             <div class="form-group">
                 <label for="crop-select">Cultura:</label>
                 <select id="crop-select">
@@ -56,6 +65,7 @@
                 <!-- As anotações serão exibidas aqui -->
             </div>
         </div>
+        </main>
     </div>
 
     <script src="script.js"></script>
